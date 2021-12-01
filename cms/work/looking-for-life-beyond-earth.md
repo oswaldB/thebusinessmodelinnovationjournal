@@ -1,0 +1,21 @@
+---
+created-on: '2018-06-20T19:34:42.303Z'
+f_project-description: A dating app — for single socks.
+f_image-description: 'Sinder homepage '
+title: Sinder
+slug: looking-for-life-beyond-earth
+f_number-2: '01'
+updated-on: '2018-06-29T20:51:03.401Z'
+f_project-thumbnail:
+  url: /assets/external/61a7fc846370cf8c604dc2af_sinder2.jpg
+  alt: null
+published-on: '2018-09-11T23:55:38.938Z'
+layout: '[work].html'
+tags: work
+---
+
+![](/assets/external/61a7fc846370cf10874dc2b3_sinder.jpg)
+
+Sinder is a dating app for single socks. The design concept stems from the mission of the company: to help single socks meet their match. Simple, elegant, and cheerful tones convey the optimism of this company's mission.
+
+![](/assets/external/61a7fc846370cf478d4dc2b6_sinder2.png)
