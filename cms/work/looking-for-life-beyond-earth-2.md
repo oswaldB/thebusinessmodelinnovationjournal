@@ -12,7 +12,7 @@ f_project-thumbnail:
   url: >-
     https://uploads-ssl.webflow.com/61a7fc846370cfcd224dc2a6/61a7fc846370cfe1af4dc2b2_Sinder3.png
   alt: null
-published-on: '2018-09-11T23:55:38.938Z'
+published-on: '2021-12-02T09:40:55.554Z'
 layout: '[work].html'
 tags: work
 ---
