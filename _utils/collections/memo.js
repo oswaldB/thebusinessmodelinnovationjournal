@@ -1,3 +1,5 @@
+const createSearchIndex = require('../search');
+
 let memo;
 
 /**
@@ -18,7 +20,7 @@ const memoize = (collection) => {
         memo[inputPath] = item;
     });
 
-
+    createSearchIndex(memo);
 
     return [];
 };

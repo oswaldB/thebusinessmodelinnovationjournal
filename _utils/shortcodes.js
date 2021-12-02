@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img");
 const path = require('path');
+const {formatPrice, ecommerceFormat, convertPrice} = require('./money/utils');
 
 let config;
 
@@ -138,5 +139,23 @@ module.exports = function (eleventyConfig) {
         })
 
         return `<script type="application/json">${JSON.stringify(mappedVariations)}</script>`
+    })
+
+    eleventyConfig.addShortcode('money', async function (price) {
+        if (!price) {
+            return "";
+        }
+
+        const baseCurrency = ecommerceFormat.currencies[0].currencyCode;
+        const basePrice = price[baseCurrency] || 0;
+
+        
+        return (await Promise.all(ecommerceFormat.currencies.map(async currency => {
+
+            const currentPrice = !!price[currency.currencyCode] ? formatPrice(price[currency.currencyCode], currency) : formatPrice(await convertPrice(basePrice, baseCurrency.toUpperCase(), currency.currencyCode.toUpperCase()), currency);
+
+            return `<price data-currency-code="${currency.currencyCode}">${currentPrice}</price>`;
+        }))).join("");
+
     })
 }

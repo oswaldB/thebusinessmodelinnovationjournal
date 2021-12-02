@@ -2,6 +2,12 @@ const {findByInputPath} = require('./memo');
 const compareItemByFilter = require('./compare');
 
 module.exports = {
+    getDefaultSKU: function(fieldValue) {
+        if (!Array.isArray(fieldValue)) {
+            return null;
+        }
+        return fieldValue.find(i => i.default === true) || fieldValue[0];
+    },
     resolveMultiReferences: function (fieldValue) {
         if (!Array.isArray(fieldValue)) {
             return [];
@@ -36,7 +42,6 @@ module.exports = {
         if (fields.includes('DYN_CONTEXT_FIELD') && !fields.includes(";")) {
             fields+="; "
         }
-
 
         const filters = fields.replace(/DYN_CONTEXT_FIELD:(.*?);/gm, function(value, match) {
             if (currentItem && currentItem.data && currentItem.data[match]) {
