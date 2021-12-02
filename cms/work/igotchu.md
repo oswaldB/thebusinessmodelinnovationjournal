@@ -8,7 +8,8 @@ slug: igotchu
 f_number-2: '02'
 updated-on: '2018-06-29T20:50:51.980Z'
 f_project-thumbnail:
-  url: /assets/external/61a7fc846370cf6b9c4dc2b1_igotchu20_blankhand.jpeg
+  url: >-
+    https://uploads-ssl.webflow.com/61a7fc846370cfcd224dc2a6/61a7fc846370cf6b9c4dc2b1_iGotchu%20_blankhand.jpeg
   alt: null
 published-on: '2018-09-11T23:55:38.938Z'
 layout: '[work].html'
@@ -17,8 +18,8 @@ tags: work
 
 iGotchu is an app that just...gets you, so, we designed with a diverse array of hand models.
 
-![](/assets/external/61a7fc846370cfe15f4dc2b0_igotchu204.jpg)
+![](https://uploads-ssl.webflow.com/61a7fc846370cfcd224dc2a6/61a7fc846370cfe15f4dc2b0_iGotchu%204.jpg)
 
-![](/assets/external/61a7fc846370cf59604dc2aa_igotchu203.jpg)
+![](https://uploads-ssl.webflow.com/61a7fc846370cfcd224dc2a6/61a7fc846370cf59604dc2aa_iGotchu%203.jpg)
 
-![](/assets/external/61a7fc846370cfc1ab4dc2a8_igotchu20icon202.jpg)
+![](https://uploads-ssl.webflow.com/61a7fc846370cfcd224dc2a6/61a7fc846370cfc1ab4dc2a8_iGotchu%20Icon%202.jpg)
